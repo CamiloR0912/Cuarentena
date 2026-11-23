@@ -26,7 +26,7 @@ Configuraciones (GDD §16.1), 10 000 réplicas cada una:
 """
 import math
 
-from apellido1_apellido2_utilidades import (carpeta_resultados, encabezado, guardar, ic95_media, lcg,
+from Ramirez_Camilo_utilidades import (carpeta_resultados, encabezado, guardar, ic95_media, lcg,
                                             matplotlib_sin_ventana, tabla_validacion)
 
 REPLICAS = 10_000
