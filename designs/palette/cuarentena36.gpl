@@ -1,0 +1,40 @@
+GIMP Palette
+Name: Cuarentena-36
+Columns: 9
+#
+ 18  20  23	N0 Ink
+ 28  31  34	N1 Night asphalt
+ 43  47  51	N2 Asphalt (core)
+ 58  63  69	N3 Asphalt light
+ 74  80  88	N4 Concrete (core)
+ 95 102 110	N5 Concrete light
+138 145 153	N6 Fog (core)
+180 186 192	N7 Fog light
+234 242 245	N8 Clinical white (core)
+ 30  46  61	B0 Deep night
+ 59  90 117	B1 Cold blue (core)
+ 92 127 156	B2 Cold blue light
+ 44 111 150	C0 Clinical blue dark
+ 79 163 209	C1 Clinical blue (core)
+154 207 234	C2 Clinical blue light
+ 62  74  40	G0 Sick green deepest
+ 92 107  58	G1 Sick green dark
+122 143  78	G2 Sick green (core)
+181 201  90	G3 Acid green (core)
+221 232 154	G4 Acid green light
+110  31  24	R0 Danger red dark
+192  57  43	R1 Danger red (core)
+229 103  90	R2 Danger red light
+138  90  23	A0 Amber dark
+224 160  48	A1 Emergency amber (core)
+245 208 122	A2 Amber light
+ 74  47  37	S0 Skin 0
+122  80  64	S1 Skin 1
+176 126  95	S2 Skin 2
+221 176 142	S3 Skin 3
+107 115  96	I0 Infected skin dark
+142 152 120	I1 Infected skin
+179 185 160	I2 Infected skin light
+ 61  43  34	W0 Wood hair dark
+106  74  53	W1 Wood
+143 106  76	W2 Wood light
