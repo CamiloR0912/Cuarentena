@@ -1,0 +1,4 @@
+config,parametros,medida,teorico,obtenido,dif_pct
+1,"Boids N=50, w_a=0, eta=0.6",phi_rms,0.1414213562,0.1439174806,1.765026
+2,"Boids N=50, w_a=0.9, eta=0.08",phi,1.0000000000,0.9908054865,0.919451
+3,"ABM beta=0.3, gamma=0.1, N=2000",r_inf,0.9404797907,0.9472500000,0.719868

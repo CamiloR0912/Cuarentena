@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://brwu7pl3bfq6d"
+
+[deps]
+
+files=["res://validacion/resultados/markov/validacion.parametros.translation", "res://validacion/resultados/markov/validacion.medida.translation", "res://validacion/resultados/markov/validacion.teorico.translation", "res://validacion/resultados/markov/validacion.obtenido.translation", "res://validacion/resultados/markov/validacion.dif.translation"]
+
+source_file="res://validacion/resultados/markov/validacion.csv"
+dest_files=["res://validacion/resultados/markov/validacion.parametros.translation", "res://validacion/resultados/markov/validacion.medida.translation", "res://validacion/resultados/markov/validacion.teorico.translation", "res://validacion/resultados/markov/validacion.obtenido.translation", "res://validacion/resultados/markov/validacion.dif.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

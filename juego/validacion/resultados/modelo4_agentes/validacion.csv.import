@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://bk2ej6p0158nu"
+
+[deps]
+
+files=["res://validacion/resultados/modelo4_agentes/validacion.parametros.translation", "res://validacion/resultados/modelo4_agentes/validacion.medida.translation", "res://validacion/resultados/modelo4_agentes/validacion.teorico.translation", "res://validacion/resultados/modelo4_agentes/validacion.obtenido.translation", "res://validacion/resultados/modelo4_agentes/validacion.dif.translation"]
+
+source_file="res://validacion/resultados/modelo4_agentes/validacion.csv"
+dest_files=["res://validacion/resultados/modelo4_agentes/validacion.parametros.translation", "res://validacion/resultados/modelo4_agentes/validacion.medida.translation", "res://validacion/resultados/modelo4_agentes/validacion.teorico.translation", "res://validacion/resultados/modelo4_agentes/validacion.obtenido.translation", "res://validacion/resultados/modelo4_agentes/validacion.dif.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://cnvulbpgpeam5"
+
+[deps]
+
+files=["res://validacion/resultados/modelo3_montecarlo/validacion.parametros.translation", "res://validacion/resultados/modelo3_montecarlo/validacion.medida.translation", "res://validacion/resultados/modelo3_montecarlo/validacion.teorico.translation", "res://validacion/resultados/modelo3_montecarlo/validacion.obtenido.translation", "res://validacion/resultados/modelo3_montecarlo/validacion.dif.translation"]
+
+source_file="res://validacion/resultados/modelo3_montecarlo/validacion.csv"
+dest_files=["res://validacion/resultados/modelo3_montecarlo/validacion.parametros.translation", "res://validacion/resultados/modelo3_montecarlo/validacion.medida.translation", "res://validacion/resultados/modelo3_montecarlo/validacion.teorico.translation", "res://validacion/resultados/modelo3_montecarlo/validacion.obtenido.translation", "res://validacion/resultados/modelo3_montecarlo/validacion.dif.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true
