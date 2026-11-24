@@ -1,0 +1,4 @@
+config,parametros,medida,teorico,obtenido,dif_pct
+1,"P infectado, inicio Errante",E[T] (min),16.6666666667,16.7836000000,0.701600
+2,"pi_10, estado Corredor",P(Corredor),0.3477134884,0.3520000000,1.232771
+3,"P jefe, 50 000 pasos",pi(Deambular),0.5474178404,0.5479200000,0.091732

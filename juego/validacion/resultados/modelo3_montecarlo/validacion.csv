@@ -1,0 +1,4 @@
+config,parametros,medida,teorico,obtenido,dif_pct
+1,"Tubo U(8,12), p_crit=0.10, k=2",E[D],11.0000000000,11.0546032702,0.496393
+2,"Dardos N(15,3), p_crit=0.15, k=2",E[D],17.2500000000,17.1797374329,0.407319
+3,"Mision q=0.90, m=5",P(exito),0.5904900000,0.5886000000,0.320073

@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://dmqfqe3wup75i"
+
+[deps]
+
+files=["res://validacion/resultados/modelo2_colas/validacion.parametros.translation", "res://validacion/resultados/modelo2_colas/validacion.medida.translation", "res://validacion/resultados/modelo2_colas/validacion.teorico.translation", "res://validacion/resultados/modelo2_colas/validacion.obtenido.translation", "res://validacion/resultados/modelo2_colas/validacion.dif.translation"]
+
+source_file="res://validacion/resultados/modelo2_colas/validacion.csv"
+dest_files=["res://validacion/resultados/modelo2_colas/validacion.parametros.translation", "res://validacion/resultados/modelo2_colas/validacion.medida.translation", "res://validacion/resultados/modelo2_colas/validacion.teorico.translation", "res://validacion/resultados/modelo2_colas/validacion.obtenido.translation", "res://validacion/resultados/modelo2_colas/validacion.dif.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

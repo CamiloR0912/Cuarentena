@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://c62ive7dyxtk0"
+
+[deps]
+
+files=["res://validacion/resultados/modelo1_caminatas/validacion.parametros.translation", "res://validacion/resultados/modelo1_caminatas/validacion.medida.translation", "res://validacion/resultados/modelo1_caminatas/validacion.teorico.translation", "res://validacion/resultados/modelo1_caminatas/validacion.obtenido.translation", "res://validacion/resultados/modelo1_caminatas/validacion.dif.translation"]
+
+source_file="res://validacion/resultados/modelo1_caminatas/validacion.csv"
+dest_files=["res://validacion/resultados/modelo1_caminatas/validacion.parametros.translation", "res://validacion/resultados/modelo1_caminatas/validacion.medida.translation", "res://validacion/resultados/modelo1_caminatas/validacion.teorico.translation", "res://validacion/resultados/modelo1_caminatas/validacion.obtenido.translation", "res://validacion/resultados/modelo1_caminatas/validacion.dif.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

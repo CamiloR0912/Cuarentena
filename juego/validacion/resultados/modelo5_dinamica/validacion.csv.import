@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://1gb6sl1t8ic2"
+
+[deps]
+
+files=["res://validacion/resultados/modelo5_dinamica/validacion.parametros.translation", "res://validacion/resultados/modelo5_dinamica/validacion.medida.translation", "res://validacion/resultados/modelo5_dinamica/validacion.teorico.translation", "res://validacion/resultados/modelo5_dinamica/validacion.obtenido.translation", "res://validacion/resultados/modelo5_dinamica/validacion.dif.translation"]
+
+source_file="res://validacion/resultados/modelo5_dinamica/validacion.csv"
+dest_files=["res://validacion/resultados/modelo5_dinamica/validacion.parametros.translation", "res://validacion/resultados/modelo5_dinamica/validacion.medida.translation", "res://validacion/resultados/modelo5_dinamica/validacion.teorico.translation", "res://validacion/resultados/modelo5_dinamica/validacion.obtenido.translation", "res://validacion/resultados/modelo5_dinamica/validacion.dif.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true
