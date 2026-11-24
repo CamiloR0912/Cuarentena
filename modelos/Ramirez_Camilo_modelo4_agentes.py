@@ -1,7 +1,7 @@
 """
 MODELO 4 — Simulación basada en agentes: Masas (boids), contagio en la calle, Corredores (FSM) y ciudadanos (pánico).
 
-Ejecutar:  python modelos/apellido1_apellido2_modelo4_agentes.py [--mostrar]
+Ejecutar:  python modelos/Ramirez_Camilo_modelo4_agentes.py [--mostrar]
 
 Tipología: simulación basada en agentes, tiempo discreto.
 PRNG: congruencial lineal del taller anterior (a=1664525, c=1013904223, m=2^32), semilla distinta a la del modelo 1.
@@ -25,7 +25,7 @@ Configuraciones (GDD §16.4):
 """
 import math
 
-from apellido1_apellido2_utilidades import (bernoulli, carpeta_resultados, encabezado, guardar, ic95_media, lcg,
+from Ramirez_Camilo_utilidades import (bernoulli, carpeta_resultados, encabezado, guardar, ic95_media, lcg,
                                             matplotlib_sin_ventana, tabla_validacion, uniforme)
 
 SEMILLA = 777

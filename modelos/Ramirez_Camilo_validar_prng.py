@@ -1,7 +1,7 @@
 """
 Validación de los generadores del taller anterior (pseudo_gen) con los parámetros usados en Cuarentena.
 
-Ejecutar:  python modelos/apellido1_apellido2_validar_prng.py [--mostrar]
+Ejecutar:  python modelos/Ramirez_Camilo_validar_prng.py [--mostrar]
 
 Para cada generador se generan N = 10 000 números y se aplican las 5 pruebas de la librería
 (medias, varianza, chi-cuadrado, Kolmogorov-Smirnov, póker) con α = 0.05.
@@ -11,7 +11,7 @@ Asignación de generadores a modelos:
     Multiplicativo MINSTD       -> Modelo 2 (cola M/M/c)
     Aditivo (Fibonacci 24/55)   -> Modelo 3 (Monte Carlo)
 """
-from apellido1_apellido2_utilidades import (aditivo, carpeta_resultados, encabezado, gnp, lcg,
+from Ramirez_Camilo_utilidades import (aditivo, carpeta_resultados, encabezado, gnp, lcg,
                                             matplotlib_sin_ventana, minstd)
 
 N = 10_000

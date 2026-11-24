@@ -1,7 +1,7 @@
 """
 MODELO 5 — Dinámica de sistemas: modelo SIR del pulso epidémico de Tunja (N = 180 000).
 
-Ejecutar:  python modelos/apellido1_apellido2_modelo5_dinamica.py [--mostrar]
+Ejecutar:  python modelos/Ramirez_Camilo_modelo5_dinamica.py [--mostrar]
 
 Tipología: simulación continua (ecuaciones diferenciales), integración Runge-Kutta de orden 4.
 PRNG: congruencial lineal del taller anterior (a=1664525, c=1013904223, m=2^32) para el análisis de
@@ -25,7 +25,7 @@ Configuraciones (GDD §16.5), γ = 0.1, N = 180 000, I0 = 10:
 """
 import math
 
-from apellido1_apellido2_utilidades import (carpeta_resultados, encabezado, guardar, ic95_media, lcg,
+from Ramirez_Camilo_utilidades import (carpeta_resultados, encabezado, guardar, ic95_media, lcg,
                                             matplotlib_sin_ventana, tabla_validacion, uniforme)
 
 N = 180_000

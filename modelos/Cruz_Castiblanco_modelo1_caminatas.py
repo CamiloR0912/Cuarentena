@@ -1,7 +1,7 @@
 """
 MODELO 1 — Caminata aleatoria 2D en retícula, con sesgo por ruido (Errantes y Tosedores; nube de contagio).
 
-Ejecutar:  python modelos/apellido1_apellido2_modelo1_caminatas.py [--mostrar]
+Ejecutar:  python modelos/Cruz_Castiblanco_modelo1_caminatas.py [--mostrar]
 
 Tipología: simulación discreta estocástica.
 PRNG: congruencial lineal del taller anterior (a=1664525, c=1013904223, m=2^32).

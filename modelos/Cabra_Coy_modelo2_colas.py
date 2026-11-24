@@ -26,7 +26,7 @@ Configuraciones (GDD §16.2), 30 réplicas de 10 000 minutos cada una:
 import heapq
 import math
 
-from apellido1_apellido2_utilidades import (carpeta_resultados, encabezado, exponencial, guardar, ic95_media,
+from Ramirez_Camilo_utilidades import (carpeta_resultados, encabezado, exponencial, guardar, ic95_media,
                                             matplotlib_sin_ventana, minstd, tabla_validacion)
 
 T_FIN = 10_000.0
