@@ -1,0 +1,19 @@
+Map tilesets for Cuarentena - curated from free LPC packs and recolored to the Cuarentena-36 palette.
+Maps (.tmx) are our own work, made with Tiled (https://www.mapeditor.org); Tiled's GPL covers the editor, not the maps.
+
+- LPC Modern Streets - Faufilage - CC0 - https://opengameart.org/content/lpc-modern-streets
+  (road, cracks, sidewalk, manhole, traffic markings, trash bins, traffic cones)
+- LPC City Outside - Reemax, with Sharm (Lanea Zimmerman), Tuomo Untinen, Guido Bos, Johann C, Johannes Sjolund,
+  Xenodora, William Thompson, daneeklu, wulax - CC-BY-SA 3.0 / GPL 3.0 / GPL 2.0 - https://opengameart.org/content/lpc-city-outside
+  (roofs, walls, gray windows, doors, towers, stone floor, lamp post, statue, obelisk, well; see its credits.txt)
+- LPC Base Assets - Lanea "Sharm" Zimmerman, Stephen "Redshrike" Challener and others - CC-BY-SA 3.0 / GPL 3.0
+  https://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-tiles (grass, trees; see CREDITS.TXT)
+- LPC Modern Car Additions - Blue Moon Bear, based on "[LPC] Skorpio's SciFi Sprite Pack" by Skorpio and
+  "LPC Police Car" by Baŝto - CC-BY-SA 3.0 / GPL 3.0 - https://opengameart.org/content/lpc-modern-car-additions
+- LPC Revised: The Office - Eliza Wyatt, with pieces by Lanea Zimmerman (Sharm) - CC-BY-SA 3.0 / OGA-BY 3.0
+  https://opengameart.org/content/lpc-revised-the-office (desk, laptop, copier, water cooler, TV, table, sink, bins)
+- Futuristic Doctor's Office - spiral atlas, mostly edits of Lanea Zimmerman (Sharm)'s LPC base assets - CC-BY-SA 4.0
+  https://opengameart.org/node/96827 (hospital bed, IV stand, cabinets, bookshelf, counter, chair, plant, fridge, floors)
+- Beds - bleutailfly & Jordan Irwin (AntumDeluge) - CC-BY-SA 3.0 or later - https://opengameart.org/content/beds
+  (single beds used as stretchers)
+- LPC Base Assets: inside.png (interior walls, door, wooden floor) - Lanea Zimmerman (Sharm)

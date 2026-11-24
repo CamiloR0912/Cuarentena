@@ -1,0 +1,17 @@
+# Attributions — third-party assets used in Cuarentena
+
+Every row must also appear on the credits screen (`ui_19`). Audio is still to be added when chosen.
+
+| Asset | Used for | Author | License | Link | Changes made |
+|---|---|---|---|---|---|
+| Pixel Operator (PixelOperator, PixelOperator8, Bold variants) | All in-game text; text baked into a few images (hospital collapse banner, URGENCIAS / AMBULANCIAS tiles, logo subtitle) | Jayvee Enaguas (HarvettFox96) | CC0 1.0 (`juego/assets/fonts/PixelOperator_LICENSE.txt`) | https://www.dafont.com/pixel-operator.font | None (font used as is, rendered without anti-aliasing) |
+| Universal LPC Spritesheet Character Generator — body, head, eyes, facial expressions, hair, clothes, shoes, cape, backpack, apron, tie, glasses, mustache, wheelchair layers | All human characters (`juego/assets/sprites/characters/*`) and the 3 dialogue portraits | Many LPC artists — the per-layer authors are listed in each `juego/assets/sprites/characters/<name>/CREDITS.txt` and aggregated in [lpc_credits.md](lpc_credits.md) | CC-BY-SA 3.0 / GPL 3.0 / OGA-BY 3.0 (derived sprites keep these licenses) | https://github.com/LiberatedPixelCup/Universal-LPC-Spritesheet-Character-Generator | Recolored to Cuarentena-36 by luminance ramps, rows reordered to down/up/right, frames selected per animation, lab-coat tails added by script, carry pose, cough frames, portrait busts cropped ×3 with custom backgrounds, headset and safety goggles. Before/after images in `before_after/` |
+| LPC weapon / tool props: club, dagger, slingshot, watering can, cane | In-hand weapons in Elena's attack sheets; elder's cane | LPC artists (see `elena/CREDITS.txt`, `citizen_elder/CREDITS.txt`) | CC-BY-SA 3.0 / GPL 3.0 / OGA-BY 3.0 | same as above | Recolored by brightness: club → metal pipe, dagger → syringe, slingshot → amber dart pistol, watering can → red extinguisher; club cropped from 192 px oversize cells to 96×96 |
+
+Everything else under `juego/assets/` (props, items, weapon icons, tilesets, UI, VFX, logo, menu, victory, level cards, app icon) is original, drawn by the team's generator scripts in `tools/` directly in the Cuarentena-36 palette; no third-party art was used for them.
+
+## AI usage statement (GDD §20)
+
+- **Tool and use:** an AI coding assistant (Claude, by Anthropic) wrote the offline art generator scripts in `tools/` (`cq.py`, `lpc_build.py`, `props_build.py`, `ui_vfx_build.py`, `screens_build.py`, `tiles_build.py`, `preview_sheet.py`, `contact.py`), following the team's specifications in `designs/`. The scripts draw the original assets pixel by pixel and composite/recolor the LPC layers.
+- **Team decisions:** the art direction, palette, sizes, layouts and every per-asset specification in `designs/` were written by the team; the team reviews and edits the generated PNGs.
+- **Still required by hand:** the paper sketches in `designs/evidence/sketches/` and the reference photos in `designs/evidence/references/` (workshop item 3.2).
