@@ -1,0 +1,9 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+.claude
+# builds exportados
+/build/
+
+# Godot portable
+/Godot_v*.exe
