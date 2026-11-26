@@ -7,3 +7,6 @@
 
 # Godot portable
 /Godot_v*.exe
+
+# ejecutable exportado (se publica en GitHub Releases, pesa >100 MB)
+/ejecutable/

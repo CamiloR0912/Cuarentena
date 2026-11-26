@@ -2,7 +2,7 @@
 
 | Field | Value |
 |---|---|
-| Priority | **P2** (needed for the Godot Windows export .exe and the browser tab of the web build) |
+| Priority | **P2** (needed for the Godot Windows export .exe) |
 | Output folder | `juego/assets/ui/icon/` |
 
 ## Description
@@ -14,7 +14,7 @@ A medical cross (`N8`, `C1` shading) over a round virus shape (`G2`/`G3` spikes)
 | File | Size | Notes |
 |---|---|---|
 | `icon_16.png` | 16×16 | Hand-drawn (simplified, no spikes detail) |
-| `icon_32.png` | 32×32 | Hand-drawn master — Godot Project Settings → Application → Config → Icon, and web favicon |
+| `icon_32.png` | 32×32 | Hand-drawn master — Godot Project Settings → Application → Config → Icon |
 | `icon_256.png` | 256×256 | `icon_32.png` upscaled ×8 nearest-neighbor (no redraw) |
 | `cuarentena.ico` | 16, 32, 256 | Multi-size .ico built from the 3 PNGs (Windows export preset → Application → Icon) |
 

@@ -16,7 +16,6 @@ Se necesita **Godot 4.7** (versión estándar, no .NET): <https://godotengine.or
 | Desde el editor | Abrir Godot, *Importar*, elegir `juego/project.godot` y pulsar F5. |
 | Desde la consola | `godot --path juego` |
 | Ejecutable de Windows (opción A) | Ver "Exportar". Resultado: `build/windows/apellido1_apellido2_apellido3_ExpoSimu2026.exe` |
-| Navegador (opción B) | Ver "Exportar". Resultado: `build/web/index.html` |
 
 La primera vez que se abre el proyecto en un equipo, Godot importa los recursos (tarda cerca de un minuto).
 Desde la consola se puede forzar con `godot --headless --path juego --import`.
@@ -27,14 +26,9 @@ Desde la consola se puede forzar con `godot --headless --path juego --import`.
 2. Los presets ya están en `juego/export_presets.cfg`. Desde la carpeta raíz:
 
 ```bash
-mkdir -p build/windows build/web
+mkdir -p build/windows
 godot --headless --path juego --export-release "Windows Desktop" ../build/windows/apellido1_apellido2_apellido3_ExpoSimu2026.exe
-godot --headless --path juego --export-release "Web" ../build/web/index.html
 ```
-
-El build web se exporta **sin hilos**, así que no necesita cabeceras COOP/COEP, pero sí un servidor HTTP
-(no funciona abriendo el archivo con doble clic): `python -m http.server 8000 --directory build/web` y abrir
-<http://localhost:8000>. Para publicarlo, subir la carpeta `build/web` comprimida a itch.io como proyecto HTML5.
 
 ## Controles
 

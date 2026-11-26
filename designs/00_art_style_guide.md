@@ -10,7 +10,6 @@ Every other file in `designs/` assumes these rules. If a file contradicts this o
 | Internal (virtual) canvas | **960×540 px**; the whole game is drawn here |
 | Upscale | **×2 integer, nearest-neighbor** → 1920×1080. Other window sizes are letterboxed with black bars (never non-integer stretch) |
 | Godot setup | Project Settings → Display → Window: viewport 960×540, window 1920×1080, stretch mode `viewport`, scale mode `integer`. Rendering → Textures → default filter `Nearest` |
-| Web build (Godot HTML5 export) | Same project settings; the browser canvas is scaled by integer steps |
 | Art is authored at | **1× (960×540 scale)**. Never draw at 1080p. One art pixel = 2×2 screen pixels |
 | World tile | **32×32 px** |
 | Visible world | 30×17 tiles minus HUD (≈30×13.5 tiles of playfield) |

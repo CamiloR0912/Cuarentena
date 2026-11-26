@@ -141,7 +141,7 @@ Suggested drawing order: style guide → `char_01` Elena → `char_02` Errante �
 | [ui_21_game_over.md](ui_21_game_over.md) | Game over (4 causes) | P1 |
 | [ui_22_victory.md](ui_22_victory.md) | Victory / cure scene | P2 |
 | [ui_23_level_cards.md](ui_23_level_cards.md) | Level title cards | P3 |
-| [ui_24_app_icon.md](ui_24_app_icon.md) | App icon (.exe, web) | P2 |
+| [ui_24_app_icon.md](ui_24_app_icon.md) | App icon (.exe) | P2 |
 
 ## Evidence folders (create as you work)
 
